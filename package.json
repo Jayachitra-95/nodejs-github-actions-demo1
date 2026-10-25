@@ -1,1 +1,13 @@
-
+{
+  "name": "nodejs-github-actions-demo1",
+  "version": "1.0.0",
+  "description": "Node.js application for practicing CI/CD with GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
